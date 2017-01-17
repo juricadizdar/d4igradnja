@@ -1,0 +1,23 @@
+/* Buttons */
+
+.btn-primary{
+	color: $primary-color;
+	@include add-background($primary-color);
+	@include add-border(2px, $dark-color, all);
+}
+
+.btn-primary:hover{
+	background: darken($primary-color, 10%);
+	@include add-border(2px, $dark-color, all);
+}
+
+.btn-secondary{
+	color: $primary-color;
+	@include add-background($secondary-color);
+	@include add-border(2px, $dark-color, all);
+}
+
+.btn-primary:hover{
+	background: darken($secondary-color, 10%);
+	@include add-border(2px, #ffffff, all);
+}

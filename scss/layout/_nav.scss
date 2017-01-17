@@ -1,0 +1,27 @@
+/* Navbar */
+
+.navbar{
+	width: 100%;
+	margin: auto;
+	@include add-border(1px, #e7e7e7, 'right-left');
+	min-height: 60px;
+	background: #fff;
+	margin-bottom: 30px; 
+	
+	a, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus{
+		color: $primary-color !important;
+		font-size: 20px;
+		letter-spacing: -0.5px;
+		padding-bottom: 24px !important;
+		padding-top: 20px !important;
+	}
+	a.active_color, a.active_color:active {
+	background: #565656;
+	color: #fff !important;
+}
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus
+, .navbar-inverse .navbar-nav > .active_color > a, .navbar-inverse .navbar-nav > .active_color > a:hover, .navbar-inverse .navbar-nav > .active_color > a:focus{
+	background: $primary-color !important;
+	color: #fff !important;
+}

@@ -1,0 +1,38 @@
+@media(max-width:992px){
+	.page-header:before {
+    top: 6px;
+	}
+	#zasto_mi > div > div > div:nth-child(2) > div.page-header{
+		margin-top: 80px;
+	}
+}
+
+
+@media(max-width:768px){
+	#animate, #animate_footer{
+		text-align: center;
+	}
+	#animate_button, #animate_footer_button, #animate_button_showcase{
+		text-align: center;
+		display:block;
+	}
+	.section-showcase-slider{
+		height: auto;
+	}
+	.carousel-inner{
+		height: 600px;
+	}
+	.carousel img{
+		width: 300px;
+		margin-top: 30px;
+	}
+	.carousel .item{
+		margin-top: -50px;
+	}
+	.carousel-caption{
+		top: 10px;
+	}
+	.section-showcase-2{
+		height: auto;
+	}
+}

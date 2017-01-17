@@ -1,0 +1,34 @@
+/* Searchbox */
+
+.search{
+	width: 100%;
+	
+	h3{
+		margin-top:0;
+		padding-top: 0;
+	}
+	input[type="search"]{
+		
+		height: 50px;
+		width: 70%;
+		border: 2px solid $primary-color;
+		font-size: 18px;
+		padding-left: 10px;
+		padding-bottom: 5px;
+	}
+	button{
+		border: 0;
+		background: none;
+		padding: 0;
+		vertical-align: top;
+		margin-left: -4px;
+		
+		img{
+			//display: none;
+			margin-left: -3px;
+			margin-top: -2px;
+			width: 53px !important;
+			height: 54px !important;
+		}
+	}	
+}

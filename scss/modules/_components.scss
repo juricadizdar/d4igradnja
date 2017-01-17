@@ -1,0 +1,56 @@
+/* Carousel */
+
+.carousel{
+	margin-bottom: 20px;
+	height: 500px;
+	
+	.carousel-indicators{
+		display: none;
+	}
+	.item{
+		margin-top: 150px;
+		height: 400px;
+	}
+}
+
+.carousel slide,a.left.carousel-control, a.right.carousel-control{
+	background: transparent;
+}
+
+.carousel img{
+	padding: 3px;
+	margin: 0 auto;
+	margin-top: -160px;
+}
+
+.carousel strong{
+		margin-bottom: -80px;
+		display: block;
+		visibility: visible !important;
+	}
+
+
+/* Tabs */
+
+
+.tab-pane{
+	padding: 20px 10px;
+	@include border-radius(5px);
+	margin-bottom: 20px;
+}
+
+.tab-primary .tab-pane,.tab-primary .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus{
+	@include add-background($primary-color);
+}
+
+.tab-secondary .tab-pane,.tab-secondary .nav-tabs > li.active > a, .tab-secondary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus{
+	@include add-background($secondary-color);
+}
+
+.tab-dark .tab-pane,.tab-dark.nav-tabs > li.active > a, .tab-dark .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus{
+	@include add-background($dark-color);
+}
+
+.tab-light .tab-pane,.tab-light .nav-tabs > li.active > a, .tab-light .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus{
+	@include add-background($light-color);
+}
